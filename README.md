@@ -1,6 +1,5 @@
 # COBUMAS
 
-![image](https://img.shields.io/badge/license-GPL-3.svg)
 ![image](https://img.shields.io/badge/license-LGPL-3.svg)
 
 **COBUMAS** (**Comprehensive Business Management System**). It is the main application, its base is **SOLTEC.ERP**, and all its satellite applications:
