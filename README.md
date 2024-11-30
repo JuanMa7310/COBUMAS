@@ -6,7 +6,7 @@
 **COBUMAS** (**Comprehensive Business Management System**). It is the main application, its base is **SOLTEC.ERP**, and all its satellite applications:
 
 - **SOLTEC.ERP** (**Enterprise Resource Planning**)
-- **SOLTEC.CRM** (**Customer Relationship Management **)
+- **SOLTEC.CRM** (**Customer Relationship Management**)
 - **SOLTEC.SRM** (**Supplier Relationship Management**)
 - **SOLTEC.WMS** (**Warehouse Management System**)
 - **SOLTEC.PLM** (**Product Lifecycle Management**)
