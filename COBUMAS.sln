@@ -3,14 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{EB783516-4BE1-49ED-A527-A35CD063D939}"
+	ProjectSection(SolutionItems) = preProject
+		CONTRIBUTORS.txt = CONTRIBUTORS.txt
+		LICENSE = LICENSE
+		README-ES.md = README-ES.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{87F692A6-18A1-4575-A784-F6D736B92474}"
+	ProjectSection(SolutionItems) = preProject
+		repository-open-graph-template.png = repository-open-graph-template.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{8799169D-9CED-4E27-9155-80CF2C44C0D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E14E0EDF-BC22-4741-8376-CEB45548E03E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COBUMAS", "COBUMAS\COBUMAS.csproj", "{A3C3BB51-7A53-4893-8FD1-449699D55D7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COBUMAS.Tests", "COBUMAS.Tests\COBUMAS.Tests.csproj", "{43914430-9EA8-4587-BE8B-BDC8CAFC4A83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3C3BB51-7A53-4893-8FD1-449699D55D7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C3BB51-7A53-4893-8FD1-449699D55D7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C3BB51-7A53-4893-8FD1-449699D55D7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C3BB51-7A53-4893-8FD1-449699D55D7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43914430-9EA8-4587-BE8B-BDC8CAFC4A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43914430-9EA8-4587-BE8B-BDC8CAFC4A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43914430-9EA8-4587-BE8B-BDC8CAFC4A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43914430-9EA8-4587-BE8B-BDC8CAFC4A83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87F692A6-18A1-4575-A784-F6D736B92474} = {EB783516-4BE1-49ED-A527-A35CD063D939}
+		{A3C3BB51-7A53-4893-8FD1-449699D55D7F} = {8799169D-9CED-4E27-9155-80CF2C44C0D4}
+		{43914430-9EA8-4587-BE8B-BDC8CAFC4A83} = {E14E0EDF-BC22-4741-8376-CEB45548E03E}
 	EndGlobalSection
 EndGlobal
