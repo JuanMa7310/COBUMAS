@@ -12,7 +12,6 @@
 - **SOLTEC.PLM** (**Product Lifecycle Management**)
 - **SOLTEC.HRM** (**Human Resource Management**)
 - **SOLTEC.IMS** (**Integrated Management System**)
-- **SOLTEC.SCM** (**Supply Chain Management**)
 
 # Installation
 
