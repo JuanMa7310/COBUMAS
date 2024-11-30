@@ -7,11 +7,11 @@
 
 - **SOLTEC.ERP** (**Enterprise Resource Planning**)
 - **SOLTEC.CRM** (**Customer Relationship Management **)
+- **SOLTEC.SRM** (**Supplier Relationship Management**)
 - **SOLTEC.WMS** (**Warehouse Management System**)
 - **SOLTEC.PLM** (**Product Lifecycle Management**)
 - **SOLTEC.HRM** (**Human Resource Management**)
 - **SOLTEC.IMS** (**Integrated Management System**)
-- **SOLTEC.SRM** (**Supplier Relationship Management**)
 - **SOLTEC.SCM** (**Supply Chain Management**)
 
 # Installation
